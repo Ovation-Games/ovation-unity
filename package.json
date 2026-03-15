@@ -1,0 +1,16 @@
+{
+    "name": "games.ovation.sdk",
+    "version": "0.1.0",
+    "displayName": "Ovation SDK",
+    "description": "Universal achievement platform SDK for Unity. Issue achievements, manage player profiles, and display cosmetic assets.",
+    "unity": "2022.3",
+    "documentationUrl": "https://docs.ovation.games",
+    "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1"
+    },
+    "keywords": ["achievements", "gamification", "ovation", "sdk"],
+    "author": {
+        "name": "Ovation Games",
+        "url": "https://ovation.games"
+    }
+}

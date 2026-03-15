@@ -1,0 +1,19 @@
+{
+    "name": "Ovation.Editor",
+    "rootNamespace": "Ovation.Editor",
+    "references": [
+        "Ovation.Runtime",
+        "Unity.Nuget.Newtonsoft-Json"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
