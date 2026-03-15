@@ -3,24 +3,26 @@
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using Ovation;
 using Ovation.Models;
 using Ovation.Utils;
 using UnityEngine;
 
-namespace Ovation
+/// <summary>
+/// Static convenience API for the Ovation SDK.
+/// This is the simplest way to use Ovation — one line of code.
+///
+/// Setup (call once at game start):
+///   Ovation.Init("your-api-key");
+///
+/// Then anywhere in your game:
+///   Ovation.Unlock("first-blood");
+///
+/// This class intentionally lives in the global namespace so that
+/// "Ovation.Unlock()" works without conflicting with the Ovation namespace.
+/// </summary>
+public static class Ovation
 {
-    /// <summary>
-    /// Static convenience API for the Ovation SDK.
-    /// This is the simplest way to use Ovation — one line of code.
-    ///
-    /// Setup (call once at game start):
-    ///   Ovation.Init("your-api-key");
-    ///
-    /// Then anywhere in your game:
-    ///   Ovation.Unlock("first-blood");
-    /// </summary>
-    public static class Ovation
-    {
         /// <summary>
         /// Initialize the Ovation SDK with just an API key.
         /// Creates the singleton automatically — no scene setup required.
@@ -147,5 +149,4 @@ namespace Ovation
                     "[Ovation] SDK not initialized. Call Ovation.Init(\"your-api-key\") first, " +
                     "or add OvationSDK to your scene with a config asset.");
         }
-    }
 }

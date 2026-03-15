@@ -103,3 +103,5 @@ InitTestScene*.unity*
 
 # LLM Context
 reference_information*
+OVATION_UNITY_SDK_SPEC.md 
+ovation-master-context-overview.md
