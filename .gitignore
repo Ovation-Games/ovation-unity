@@ -121,3 +121,7 @@ Tests/Integration~/test-config.json
 !Tests/Integration~/OvationIntegrationTests.csproj
 
 /internal~
+
+# Claude Code instructions (contains internal context not for public repo)
+CLAUDE.md
+CLAUDE.md.meta
